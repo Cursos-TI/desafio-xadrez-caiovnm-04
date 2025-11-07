@@ -31,5 +31,21 @@ int main()
         rainha++;
     } while (rainha <= 8);
 
+     printf("\n");
+
+    int cavalo = 0;
+
+    printf("Movimento cavalo \n");
+    do
+    {
+        for (int i = 0; i < 2; i++)
+        {
+            printf("baixo\n");
+        }
+            printf("Esquerda\n");
+            cavalo++;
+
+    } while (cavalo < 1);
+
     return 0;
 }
